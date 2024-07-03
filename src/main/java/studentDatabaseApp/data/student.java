@@ -2,7 +2,7 @@ package main.java.studentDatabaseApp.data;
 
 import java.util.Scanner;
 
-public class Student {
+public class student {
     private String firstName;
     private String lastName;
     private int gradeYear;
@@ -13,7 +13,7 @@ public class Student {
     private static int id = 10000;
 
     // Constructor: prompt user to enter student's name and year
-    public Student(){
+    public student(){
         Scanner in = new Scanner(System.in);
         System.out.println("Enter Student first name: ");
         this.firstName = in.nextLine();

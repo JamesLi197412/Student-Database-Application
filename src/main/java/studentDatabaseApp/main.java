@@ -1,10 +1,10 @@
 package main.java.studentDatabaseApp;
 
-import main.java.studentDatabaseApp.data.Student;
+import main.java.studentDatabaseApp.data.student;
 
 public class main {
     public static void main(String[] args) {
-        Student stu1 = new Student();
+        student stu1 = new student();
         stu1.enroll();
     }
 }
