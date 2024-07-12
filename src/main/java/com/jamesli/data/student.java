@@ -1,5 +1,4 @@
-package main.java.studentDatabaseApp.data;
-
+package com.jamesli.data;
 import java.util.Scanner;
 
 public class student {
